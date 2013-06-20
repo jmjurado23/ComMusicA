@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="musica.reproductor" android:versionName="0.53 BETA" android:versionCode="4">
+       <uses-sdk android:minSdkVersion="7"></uses-sdk>
+       <uses-permission android:name="android.permission.WRITE_OWNER_DATA"></uses-permission>
+	   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission> 
+    <application android:icon="@drawable/cma"  android:label="@string/app_name" android:debuggable="true" android:description="@string/descripcion">
+    
+	 
+        <activity android:name=".ActividadReproductorMusica"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboard|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActividadBibliotecaL"
+        		  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		 <activity android:name=".ActividadListado"
+		          android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		 <activity android:name=".ActividadPreListado"
+		 		  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		 <activity android:name=".ActividadModoReproduccion"
+		 		  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		 <activity android:name=".ActividadRecomendacion"
+		 		  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		<activity android:name=".ActividadEstadoSistema"
+				  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		<activity android:name=".ActividadGuardaLista"
+				  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		<activity android:name=".ActividadPreferencias"
+				  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		<activity android:name=".ActividadAcercaDe"
+				  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		<activity android:name=".ActividadDetallesPista"
+				  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		<activity android:name=".ActividadEncuesta"
+				  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		
+		
+    </application>
+
+</manifest> 

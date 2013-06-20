@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">ComMusicA</string>
+
+
+<string name="estado">Estado: </string>
+<string name="detenido">Detenido</string>
+<string name="reproduciendo">Reproduciendo</string>
+<string name="reproducir">Reproducir</string>
+<string name="detener">Detener</string>
+<string name="pause">Pause</string>
+<string name="volmas">+</string>
+<string name="volmenos">-</string>
+<string name="formatoDuracion">mm:ss</string>
+<string name="minuto0">--:--</string>
+<string name="sinPista">Sin pista seleccionada</string>
+<string name="sonando">Canción:</string>
+<string name="artista">Artista</string>
+<string name="aceptar">Aceptar</string>
+<string name="normal">Normal</string>
+<string name="repetir_una">Repetir una</string>
+<string name="repetir_todas">Repetir todas</string>
+<string name="aleatorio">Aleatorio</string>
+<string name="aleatorio_repetir">Aleatorio + Repetir</string>
+<string name="indica_modo">Modo de reproducción</string>
+
+<string name="titulo">Sistema de Recomendación</string><string name="barra">moviendo</string>
+
+<string name="buscando">buscando</string>
+<string name="biblioteca">Biblioteca</string>
+<string name="BotonAceptarPL">Guardar</string>
+<string name="BotonCancelarPL">Cancelar</string>
+<string name="editTextGuardarPL">Inserte un nombre para la lista</string>
+
+
+<string name="acercade_texto">ComMusicA</string>
+<string name="anno">Año</string>
+<string name="album">Álbum</string>
+<string name="directorio">Directorio:</string>
+<string name="duracion">Duración:</string>
+<string name="detalles">Detalles de la pista</string>
+<string name="track">Track:</string>
+<string name="serviciodetenido">El servicio se ha detenido</string>
+<string name="playlist">PlayList</string>
+<string name="malestado">No estoy de este humor</string>
+<string name="malhora">No es la hora adecuada</string>
+<string name="maldia">No es el día idóneo</string>
+<string name="ayudaencuesta">Lamentamos que la canción no sea de su agrado, indíquenos los motivos para mejorar la recomendación:</string>
+<string name="guardarlista">Introduzca abajo el nombre que desea poner a la lista que está escuchando en este momento:</string>
+<string name="indica_encuesta">Encuesta</string>
+<string name="textoestado">ComMusicA guarda información referente a la situación en la que usted escucha su música, para poder recomendarla posteriormente. Aquí puede ver los parámetros actuales del sistema:</string>
+<string name="descripcion">ComMusica es una aplicación de reproducción de música para Android que se basa en un sistema de recomendación musical a partir del uso que se haga de la música.</string>
+
+<string name="nopista">No hay datos guardados\. Reproduciendo todo</string>
+<string name="notiso">ComMusica está sonando</string>
+<string name="notico">Reproduciendo \- ComMusicA</string>
+<string name="espere">Por favor espere</string>
+<string name="guardando">Guardando datos\.\.\.</string>
+<string name="crearbbdd">Creando Base de Datos\.\.\. \(esto puede tardar varios minutos pero sólo se hará una vez\)</string>
+<string name="repropau">Reproducir / Pause</string>
+<string name="sigcan">Cambiar siguiente canción</string>
+<string name="antcan">Cambiar a la canción anterior</string>
+<string name="recoact">Recomienda una lista si la recomendación está activada</string>
+<string name="botonreco">Botón de acceso directo a la recomendación</string>
+<string name="estalegre">ALEGRE</string>
+<string name="estenergico">ENERGICA</string>
+<string name="estranquilizante">RELAJANTE</string>
+<string name="estnostalgica">NOSTÁLGICA</string>
+<string name="opcionpista">Escoge una opción para la pista</string>
+<string name="detalless">Detalles</string>
+<string name="quitarlista">Quitar de la reproducción actual</string>
+<string name="nohumor">No estoy de humor</string>
+<string name="recomendacion">Recomendación</string>
+<string name="herramientas">Herramientas</string>
+<string name="listare">Lista de Reproducción</string>
+<string name="escogeopcion">Escoje una  opción</string>
+<string name="estadoop">Estado</string>
+<string name="modoop">Modo de reproducción</string>
+<string name="recoop">Recomendación</string>
+<string name="webop">Conexión Web ComMusicA</string>
+<string name="prefeop">Preferencias ComMusicA</string>
+<string name="listarepro">Lista de reproducción</string>
+<string name="listaguard">guardar lista actual</string>
+<string name="listaguardre">Guardar la lista de reproducción </string>
+<string name="listavacia">La lista actual está vacía</string>
+<string name="lista">Lista</string>
+<string name="recomendando">Recomendando\.\.\.</string>
+<string name="norecomendando">No se pueden hacer recomendaciones</string>
+<string name="activalista">La recomendación no está activada, ¿quiere activarla?</string>
+<string name="cancelar">Cancelar</string>
+<string name="lalista">La lista de reproduccion: </string>
+<string name="lalistacor"> se ha guardado correctamente</string>
+<string name="listaexiste">La lista ya existe, ¿quiere sobreescribirla?</string>
+<string name="otronombre">el nombre &quot;todas las pista&quot; está reservado, elija otro nombre</string>
+<string name="todaspistas">Todas las pistas</string>
+<string name="anadirop">Añadir a lista de Reproducción Actual</string>
+<string name="borrar">¿Desea borrar los datos?</string>
+<string name="eliminadocorrecto">Se ha eliminado correctamente</string>
+<string name="eliminadiincorrecto">No se ha podido eliminar</string>
+<string name="borrarlista">Borrar lista</string>
+
+
+</resources>

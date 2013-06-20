@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    >
+    <TextView 
+    	    android:text="@string/indica_modo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#FF0000"
+             android:textStyle="bold"
+            /> 
+	<RadioGroup android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="vertical" 
+				android:checkedButton="@+id/lunch" 
+				android:id="@+id/menuModo"
+				android:background="@drawable/fondoletra">
+		<RadioButton android:text="@string/normal" 
+					 android:id="@+id/boton0"
+					 android:textColor="#000000"
+					 android:textStyle="bold"
+					 android:layout_marginTop="15px"
+					 android:layout_marginLeft="10px"/>
+		<RadioButton android:text="@string/repetir_una" 
+	                 android:id="@+id/boton1"
+	                 android:textColor="#000000"
+					 android:textStyle="bold"
+					 android:layout_marginLeft="10px"/>
+	    <RadioButton android:text="@string/repetir_todas" 
+	                 android:id="@+id/boton2"
+	                 android:textColor="#000000"
+					 android:textStyle="bold"
+					 android:layout_marginLeft="10px"/>
+		<RadioButton android:text="@string/aleatorio" 
+					 android:id="@+id/boton3"
+					 android:textColor="#000000"
+					 android:textStyle="bold"
+					 android:layout_marginLeft="10px"/>
+		<RadioButton android:text="@string/aleatorio_repetir" 
+					 android:id="@+id/boton4"
+					 android:textColor="#000000"
+					 android:textStyle="bold"
+					 android:layout_marginBottom="15px"
+					 android:layout_marginLeft="10px"/>
+	</RadioGroup>
+	<FrameLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+	>
+		<Button android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/aceptar" 
+			android:id="@+id/aceptar"
+			android:background="@drawable/botonaceptar"
+			 android:textStyle="bold"
+			android:layout_gravity="center_horizontal|bottom"/>
+	</FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">ComMusicA</string>
+
+
+<string name="estado">State: </string>
+<string name="detenido">Stop</string>
+<string name="reproduciendo">playing</string>
+<string name="reproducir">Play</string>
+<string name="detener">Stop</string>
+<string name="pause">Pause</string>
+<string name="volmas">+</string>
+<string name="volmenos">-</string>
+<string name="formatoDuracion">mm:ss</string>
+<string name="minuto0">--:--</string>
+<string name="sinPista">No track selected</string>
+<string name="sonando">Song:</string>
+<string name="artista">Artist</string>
+<string name="aceptar">Accept</string>
+<string name="normal">Normal</string>
+<string name="repetir_una">Repeat one</string>
+<string name="repetir_todas">Repeat all</string>
+<string name="aleatorio">Random</string>
+<string name="aleatorio_repetir">Random + Repeat</string>
+<string name="indica_modo">Playback mode</string>
+
+<string name="titulo">Recommendation System</string><string name="barra">moving</string>
+
+<string name="buscando">searching</string>
+<string name="biblioteca">library</string>
+<string name="BotonAceptarPL">Save</string>
+<string name="BotonCancelarPL">Cancelar</string>
+<string name="editTextGuardarPL">Enter a name to the list</string>
+
+
+<string name="acercade_texto">ComMusicA</string>
+<string name="anno">Year</string>
+<string name="album">Album</string>
+<string name="directorio">Directory:</string>
+<string name="duracion">Duration:</string>
+<string name="detalles">Details of the track</string>
+<string name="track">Track:</string>
+<string name="serviciodetenido">The service has stopped</string>
+<string name="playlist">PlayList</string>
+<string name="malestado">I\'m in this mood</string>
+<string name="malhora">Not the right time</string>
+<string name="maldia">Not the ideal day</string>
+<string name="ayudaencuesta">We regret that the song is not like it, tell us the reasons to improve the recommendation:</string>
+<string name="guardarlista">Enter below the name you want to make the list you are listening to right now:</string>
+<string name="indica_encuesta">Poll</string>
+<string name="textoestado">ComMusicA stores information concerning the situation in which you listen to your music, to recommend later. Here you can view the current parameters of the system:</string>
+<string name="descripcion">ComMusica is a music player application for Android that is based on a music recommendation system based on the use made ​​of music.</string>
+
+<string name="nopista">No data stored \. Playing all</string>
+<string name="notiso">ComMusica is playing</string>
+<string name="notico">Playing \- ComMusicA</string>
+<string name="espere">Please wait</string>
+<string name="guardando">saving data\.\.\.</string>
+<string name="crearbbdd">Creating Database \. \. \. \(this may take several minutes but will only be made once\)</string>
+<string name="repropau">Play / Pause</string>
+<string name="sigcan">Change next song</string>
+<string name="antcan">Jump to previous song</string>
+<string name="recoact">Recommends a list if the recommendation is on</string>
+<string name="botonreco">Direct access button to the recommendation</string>
+<string name="estalegre">HAPPY</string>
+<string name="estenergico">POWERFULL</string>
+<string name="estranquilizante">RELAJANTE</string>
+<string name="estnostalgica">NOSTALGIC</string>
+<string name="opcionpista">Choose an option to track</string>
+<string name="detalless">Details</string>
+<string name="quitarlista">Stop the current playback</string>
+<string name="nohumor">Not in the mood</string>
+<string name="recomendacion">Recommendation</string>
+<string name="herramientas">Tools</string>
+<string name="listare">Playlist</string>
+<string name="escogeopcion">Choose an option</string>
+<string name="estadoop">Status</string>
+<string name="modoop">Playback mode</string>
+<string name="recoop">Recommendation</string>
+<string name="webop">Conection Web ComMusicA</string>
+<string name="prefeop">Preferences ComMusicA</string>
+<string name="listarepro">Playlist</string>
+<string name="listaguard">Save current list</string>
+<string name="listaguardre">Save the playlist</string>
+<string name="listavacia">The current list is empty</string>
+<string name="lista">List</string>
+<string name="recomendando">Recommending\.\.\.</string>
+<string name="norecomendando">No recommendations can be made</string>
+<string name="activalista">The recommendation is not selected, will you activate it?</string>
+<string name="cancelar">Cancel</string>
+
+<string name="lalista">Playlist: </string>
+<string name="lalistacor"> has been saved successfully</string>
+<string name="listaexiste">Playlist already exists, do you want to overwrite it?</string>
+<string name="otronombre">the name "all track" is reserved, choose another name</string>
+<string name="todaspistas">All tracks</string>
+<string name="anadirop">Add to Now Playing List</string>
+<string name="borrar">Do you want to delete the data?</string>
+<string name="eliminadocorrecto">It was successfully removed</string>
+<string name="eliminadiincorrecto">Unable to remove</string>
+<string name="borrarlista">Delete playlist</string>
+</resources>

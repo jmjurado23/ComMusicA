@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:padding="10dip"
+    >
+
+    <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+     <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="clip_horizontal"
+        android:orientation="horizontal" >
+
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_centerInParent="true"
+			    android:gravity="left"
+			    android:orientation="horizontal" >
+			     <ImageButton android:id="@+id/r"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_alignParentRight="true"
+            		android:background="@drawable/r"
+            />
+
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/estado"
+			        android:textColor="#99FF00"
+			        android:typeface="normal" />
+
+			    <TextView
+			        android:id="@+id/estado"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="0.09"
+			        android:text="@string/detenido" />
+
+			    <TextView
+			        android:id="@+id/duracion"
+			        android:layout_width="wrap_content"
+			        android:layout_height="30px"
+			        android:layout_weight="0.10"
+			        android:text="@string/minuto0"
+			        android:textColor="#00FF00" />
+
+			    <ImageButton
+			        android:id="@+id/modo"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:background="@drawable/modo0" />
+			</LinearLayout>
+     
+</RelativeLayout>
+	 <LinearLayout
+	 	android:id="@+id/fondoletrasrepro"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondoletra"
+        >  
+         	<LinearLayout
+       		 android:orientation="horizontal"
+       		 android:layout_width="fill_parent"
+       		 android:layout_height="wrap_content"
+       		 android:layout_marginTop="7px"
+      		  > 
+        			 <TextView
+        			  android:id="@+id/textosonando"
+				      android:layout_width="wrap_content"
+					  android:layout_height="wrap_content"
+			          android:textColor="#0000FF"
+			          android:textSize="15sp"
+			          android:text="@string/sonando"
+			          android:textStyle="bold"
+			          android:layout_marginLeft="20px"
+			          />
+                     <TextView
+			          android:id="@+id/sonandom"
+			          android:layout_width="wrap_content"
+			          android:layout_height="wrap_content"
+			          android:textColor="#000000"
+			          android:text="@string/sinPista"
+			          android:textStyle="bold"
+			          android:layout_marginRight="7px"
+			          android:layout_marginLeft="5px"/>
+			</LinearLayout>
+			<LinearLayout
+       		 android:orientation="horizontal"
+       		 android:layout_width="fill_parent"
+       		 android:layout_height="wrap_content"
+       		android:layout_marginBottom="7px"
+      		  > 
+        			 <TextView
+        			  android:id="@+id/textoartista"
+				      android:layout_width="wrap_content"
+					  android:layout_height="wrap_content"
+			          android:textColor="#0000FF"
+			          android:textSize="15sp"
+			          android:text="@string/artista"
+			          android:textStyle="bold"
+			          android:layout_marginLeft="20px"/>
+                     <TextView
+			          android:id="@+id/sonandoa"
+			          android:layout_width="fill_parent"
+			          android:layout_height="wrap_content"
+			          android:textColor="#000000"
+			          android:textStyle="bold"
+			          android:layout_marginRight="7px"
+			          android:text="@string/sinPista"
+			          android:layout_marginLeft="5px"/>
+			</LinearLayout>
+			</LinearLayout>
+    </LinearLayout>
+    <SeekBar android:id="@+id/progreso"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100" android:progress="0" android:visibility="gone"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >  
+         <ImageButton android:id="@+id/estrella"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botonestrella"
+            
+            />
+         <ImageButton android:id="@+id/retroceso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botonretroceso"
+            />
+        <ImageButton android:id="@+id/reproducir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botonplay"
+            />
+       <ImageButton android:id="@+id/avance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botonavance"
+            />
+        <ImageButton android:id="@+id/detener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botonstop"
+            />
+      
+    </LinearLayout>  
+   
+   <LinearLayout
+   		android:id="@+id/layoutLista"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">  
+        <ListView android:id="@+id/android:list"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+		</ListView>
+		
+		<TextView
+			android:id="@+id/seleccion"
+			android:layout_width="50px"
+			android:layout_height="30px"
+			>
+		
+		</TextView>
+	</LinearLayout>
+   </LinearLayout>
+ </LinearLayout>
+	
+
+

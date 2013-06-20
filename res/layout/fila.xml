@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/listado_filas"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+> 
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:background="@drawable/metal7"
+	>
+
+    <ImageView
+        android:id="@+id/iconomusica"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px" />
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_marginLeft="40px"
+	android:orientation="vertical"
+	>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="25px"
+	android:orientation="horizontal"
+	android:layout_marginTop="3px"
+	android:layout_marginRight="5px"
+	>
+		<TextView
+			android:id="@+id/nombreCancion"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:textStyle="bold"
+		>
+		</TextView>
+		<TextView
+			android:id="@+id/duracionPista"
+	        android:layout_width="wrap_content"
+			android:layout_marginRight="0px"
+			android:layout_alignParentRight="true"
+			android:layout_height="fill_parent"
+			android:textStyle="bold"
+	
+		>
+	</TextView>
+</LinearLayout>
+<TextView
+	
+	android:id="@+id/nombreArtista"
+	android:layout_width="wrap_content"
+	android:textColor="#D1FF19"
+	android:layout_height="30px"
+>
+</TextView>
+
+<TextView
+	android:id="@+id/nombreData"
+	android:layout_width="wrap_content"
+	android:layout_height="25px"
+>
+
+</TextView>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout> 

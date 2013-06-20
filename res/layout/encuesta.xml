@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    >
+    <TextView 
+    	    android:text="@string/indica_encuesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#FF0000"
+             android:textStyle="bold"
+            /> 
+	<LinearLayout android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="vertical" 
+				android:background="@drawable/fondoletra">
+		<TextView 
+    	    android:text="@string/ayudaencuesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="10px"
+			android:layout_marginTop="15px"
+			android:layout_marginRight="10px"
+            /> 
+		<CheckBox
+					android:text="@string/malestado" 
+					 android:id="@+id/check0"
+					 android:layout_width="fill_parent"
+					 android:layout_height="wrap_content" 
+					 android:textColor="#000000"
+					 android:textStyle="bold"
+					 android:layout_marginTop="15px"
+					 android:layout_marginLeft="10px"/>
+		 <CheckBox android:text="@string/malhora" 
+	                 android:id="@+id/check1"
+	                 android:layout_width="fill_parent"
+	                 android:layout_height="wrap_content" 
+	                 android:textColor="#000000"
+					 android:textStyle="bold"
+					 android:layout_marginLeft="10px"/>
+	     <CheckBox android:text="@string/maldia" 
+	                 android:id="@+id/check2"
+	                 android:layout_width="fill_parent"
+	                 android:layout_height="wrap_content" 
+	                 android:textColor="#000000"
+					 android:textStyle="bold"
+					 android:layout_marginLeft="10px"
+					 android:layout_marginBottom="15px"/>
+		 
+	</LinearLayout>
+	<FrameLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+	>
+		<Button android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/aceptar" 
+			android:id="@+id/aceptar"
+			android:background="@drawable/botonaceptar"
+			 android:textStyle="bold"
+			android:layout_gravity="center_horizontal|bottom"/>
+	</FrameLayout>
+
+
+</LinearLayout>

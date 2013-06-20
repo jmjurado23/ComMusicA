@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/animotitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textColor="#99ff00"
+        android:textSize="25sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/botonalegre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botonanimodos"
+            android:text="@string/estalegre"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/botonnostalgica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/botonanimodos"
+            android:text="@string/estnostalgica"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/botonactivar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/botonnostalgica"
+            android:layout_toRightOf="@+id/botonalegre"
+            android:background="@drawable/botonanimo"
+            android:text="togle"
+            android:textColor="#FFFFFF"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/animoimagen"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:background="@drawable/animo" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/botonenergica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botonanimodos"
+            android:text="@string/estenergico"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/botontranquilizante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/botonanimodos"
+            android:text="@string/estranquilizante"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

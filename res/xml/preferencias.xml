@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="Preferencias de recomendación">
+	<EditTextPreference 
+		android:summary="Introduce el número de pistas máximo a recomendar" 
+		android:key="maxpistas" 
+		android:title="máximo de pistas recomendadas">
+	</EditTextPreference>
+	<EditTextPreference 
+		android:summary="Introduce el número de tiempo para degradar una pista en la recomendación" 
+		android:key="tiemposinreproducir" 
+		android:title="tiempo para decidir si una pista se ha dejado de escuchar">
+	</EditTextPreference>
+	
+</PreferenceCategory>
+<PreferenceCategory android:title="Preferencias de WEB ComMusicA">
+	<EditTextPreference 
+		android:summary="Introduce la URL de la página commusica" 
+		android:key="web" 
+		android:title="Dirección de la página web">
+	</EditTextPreference>
+</PreferenceCategory>
+<PreferenceCategory android:title="Borrado de preferencias">
+	<Preference 
+		android:summary="Esta opción borra los datos que se cargan al iniciar la aplicación , dejándola como en un primer uso.(no borra la base de datos de canciones) ¿Desea borrar los datos?" 
+		android:key="borrardatos"
+		android:title="Eliminar datos guardados">
+	</Preference>
+	<Preference 
+		android:summary="Esta opción borra la base de datos de recomendaciones.Requiere salir de la aplicación. Se perderán todos los datos de uso" 
+		android:key="borrarBBDD"
+		android:title="Eliminar datos de recomendaciones">
+	</Preference>
+ </PreferenceCategory>
+
+<PreferenceCategory android:title="sobre ComMusicA">
+	<Preference android:key="acercade" android:summary="ComMusica" android:title="Acerca de"></Preference>
+</PreferenceCategory>
+</PreferenceScreen>
